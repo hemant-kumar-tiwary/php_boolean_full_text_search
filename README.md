@@ -6,7 +6,9 @@ Code
 
 
 $text = '"account manager" or python and linux';
+
 $obj  = new GenerateBooleanQueryString($text);
+
 echo $obj->boolean_string;
 
 
