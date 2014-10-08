@@ -112,7 +112,3 @@ class GenerateBooleanQueryString{
 
 }
 
-## String that need to convert it into boolean search string that finally used in query
-$data = '"account manager" or python and linux';
-$obj  = new GenerateBooleanQueryString($data);
-echo $obj->boolean_string;
