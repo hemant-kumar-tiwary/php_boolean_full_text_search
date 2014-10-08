@@ -2,13 +2,14 @@ How to use
 
 Include the class file and add below code to generate boolean search string. 
 
-Code :
+Code
+
+
 $text = '"account manager" or python and linux';
 $obj  = new GenerateBooleanQueryString($text);
 echo $obj->boolean_string;
 
 
-#################################################################################
 
 
 This function is use to convert text to Boolean compatible string.
