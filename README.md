@@ -18,8 +18,20 @@ Case 3.
 	Output : +mysql +php linux
 	
 
-Case 3.
+Case 4.
 	Input :  mysql AND PHP Not Linux
 	
 	Output : +mysql +php -linux
 	
+
+Case 5.
+	Input :  "account manager"
+	
+	Output : "\"account manager\""   ## search for exact text 
+	
+
+Case 6.
+	Input :  man*
+	
+	Output : man*   ## search for any word start from man 
+		
